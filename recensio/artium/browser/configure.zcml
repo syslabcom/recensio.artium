@@ -1,0 +1,37 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="recensio.artium">
+
+  <browser:resourceDirectory
+    name="recensio.artium.images"
+    directory="images"
+    layer="recensio.artium.interfaces.IArtiumLayer"
+    />
+
+  <browser:resourceDirectory
+    name="recensio.artium.stylesheets"
+    directory="stylesheets"
+    layer="recensio.artium.interfaces.IArtiumLayer"
+    />
+
+  <browser:viewlet
+    name="bottom_links"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    class="recensio.policy.browser.footer_viewlet.Footer"
+    template="templates/footer.pt"
+    permission="zope2.View"
+    layer="recensio.artium.interfaces.IArtiumLayer"
+    />
+
+  <browser:page
+    for="recensio.contenttypes.interfaces.IReview"
+    name="generate-pdf-recension"
+    allowed_interface="recensio.theme.browser.interfaces.IGeneratePdfRecension"
+    class=".views.GeneratePdfRecensionArtium"
+    permission="zope2.View"
+    layer="recensio.artium.interfaces.IArtiumLayer"
+    />
+
+</configure>

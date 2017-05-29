@@ -1,0 +1,60 @@
+body {
+	background: #ededed 0 0;
+    color: #444;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #0077bb;
+}
+a,
+a:hover,
+a:focus {
+    color: #0077bb;
+}
+#container,
+#navigation ul,
+.login_links a,
+body.template-homepage-view .box a.one-line,
+body.template-homepage-view .box a.two-lines,
+#kommentare_container .reply {
+    background-color: #FFFFFF;
+}
+#navigation ul#portal-globalnav {
+    padding-left: 0;
+}
+#navigation a,
+#navigation a:visited {
+    color: #0077bb;
+}
+
+#authors-select-all {
+    color: #666;
+}
+body.template-homepage-view .portletTALPortlet p,
+#footer {
+	background: #ededed 0 0;
+}
+body.template-homepage-view .portletTALPortlet p,
+.template-search_form #content fieldset,
+.template-search_form #content fieldset .formHelp {
+    color: #777;
+}
+body.template-homepage-view .portletTALPortlet p .redPortletHeader {
+    color: #0077bb;
+}
+#navigation ul#portal-globalnav,
+#page_image,
+#footer {
+    border-radius: 0;
+}
+.rounded_STYLE > .tr,
+.rounded_STYLE > .tl,
+.rounded_STYLE > .br,
+.rounded_STYLE > .bl {
+    background: none;
+}
+.column_footer span {
+    margin-left: 0;
+}
+body.template-homepage-view .portletTALPortlet p .arrow {
+    background-image: url(++resource++recensio.artium.images/play-button_red2.png);
+}

@@ -1,0 +1,6 @@
+<layers>
+    <layer
+        name="recensio.artium"
+        interface="recensio.artium.interfaces.IArtiumLayer"
+        />
+</layers>
