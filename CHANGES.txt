@@ -4,7 +4,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fixed msgid in footer. Refs #15373
+  [reinhardt]
 
 
 1.0.0 (2017-01-27)
