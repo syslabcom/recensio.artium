@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0
+                          imsvdex_v1p0.xsd imsvdex_v1p0_thesaurus.xsd
+                          http://www.imsglobal.org/xsd/imsmd_rootv1p2p1
+                          imsmd_rootv1p2p1.xsd"
+      orderSignificant="true"
+      profileType="flatTokenTerms"
+      language="en">
+  <vocabName>
+    <langstring language="en">International Standard Classification of Occupations, ISCO-88</langstring>
+  </vocabName>
+  <vocabIdentifier>ISCO88</vocabIdentifier>
+
+  <term>
+    <termIdentifier>060</termIdentifier>
+    <caption>
+      <langstring language="de">Organisationen, Museumswissenschaft</langstring>
+      <langstring language="en">Associations, organizations &amp; museums</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>700</termIdentifier>
+    <caption>
+      <langstring language="de">Künste, Bildende Kunst allgemein</langstring>
+      <langstring language="en">The arts; fine &amp; decorative arts</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>710</termIdentifier>
+    <caption>
+      <langstring language="de">Landschaftsgestaltung, Raumplanung</langstring>
+      <langstring language="en">Civic &amp; landscape art</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>720</termIdentifier>
+    <caption>
+      <langstring language="de">Architektur</langstring>
+      <langstring language="en">Architecture</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>730</termIdentifier>
+    <caption>
+      <langstring language="de">Plastik, Numismatik, Keramik, Metallkunst</langstring>
+      <langstring language="en">Plastic arts; sculpture</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>740</termIdentifier>
+    <caption>
+      <langstring language="de">Zeichnung, Kunsthandwerk</langstring>
+      <langstring language="en">Drawing &amp; decorative arts</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>741.5</termIdentifier>
+    <caption>
+      <langstring language="de">Comics, Cartoons, Karikaturen</langstring>
+      <langstring language="en">Comic books, graphic novels, cartoons, caricatures</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>750</termIdentifier>
+    <caption>
+      <langstring language="de">Malerei</langstring>
+      <langstring language="en">Painting &amp; paintings</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>760</termIdentifier>
+    <caption>
+      <langstring language="de">Grafische Verfahren, Drucke</langstring>
+      <langstring language="en">Graphic arts; printmaking &amp; prints</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>770</termIdentifier>
+    <caption>
+      <langstring language="de">Fotografie, Computerkunst</langstring>
+      <langstring language="en">Photography, photographs &amp; computer art</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>780</termIdentifier>
+    <caption>
+      <langstring language="de">Musik</langstring>
+      <langstring language="en">Music</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>790-790.2</termIdentifier>
+    <caption>
+      <langstring language="de">Freizeitgestaltung, Darstellende Kunst</langstring>
+      <langstring language="en">Recreational &amp; performing arts</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>791</termIdentifier>
+    <caption>
+      <langstring language="de">Öffentliche Darbietungen, Film, Rundfunk</langstring>
+      <langstring language="en">Public performances</langstring>
+    </caption>
+  </term>
+
+  <term>
+    <termIdentifier>792</termIdentifier>
+    <caption>
+      <langstring language="de">Theater, Tanz</langstring>
+      <langstring language="en">Stage presentations</langstring>
+    </caption>
+  </term>
+
+</vdex>
