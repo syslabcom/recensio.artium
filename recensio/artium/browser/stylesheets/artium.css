@@ -10,6 +10,15 @@ a:hover,
 a:focus {
     color: #0077bb;
 }
+
+#recensio_logo {
+    margin-left: 15px;
+    width: 320px;
+}
+
+#navigation {
+    margin-top: 1em;
+}
 #container,
 #navigation ul,
 .login_links a,
@@ -26,8 +35,16 @@ body.template-homepage-view .box a.two-lines,
     color: #0077bb;
 }
 
+#portal-breadcrumbs {
+    margin-left: 15px;
+}
+
 #authors-select-all {
     color: #666;
+}
+body.template-homepage-view .box a.one-line h2::before,
+body.template-homepage-view .box a.two-lines h2::before {
+    color: #0077bb
 }
 body.template-homepage-view .portletTALPortlet p,
 #footer {
@@ -55,6 +72,10 @@ body.template-homepage-view .portletTALPortlet p .redPortletHeader {
 .column_footer span {
     margin-left: 0;
 }
+p.logos {
+    text-align: center;
+}
+
 body.template-homepage-view .portletTALPortlet p .arrow {
     background-image: url(++resource++recensio.artium.images/play-button_red2.png);
 }
