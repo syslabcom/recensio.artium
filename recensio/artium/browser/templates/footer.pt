@@ -29,6 +29,9 @@
               <a href="http://www.dfg.de/"
                  ><img tal:attributes="src string:${portal_url}/++resource++recensio.artium.images/logos/logo_dfg.png" src="imgs/logos/logo_dfg.png"
                  alt="Logo der Deutschen Forschungsgemeinschaft" /></a>
+              <a href="https://www.arthistoricum.net/"
+                 ><img tal:attributes="src string:${portal_url}/++resource++recensio.artium.images/logos/logo_arthistoricum.png" src="imgs/logos/logo_arthistoricum.png"
+                 alt="Logo arthistoricum.net" /></a>
           </p>
       </div>
 

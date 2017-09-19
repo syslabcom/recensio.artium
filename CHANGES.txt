@@ -4,6 +4,8 @@ Changelog
 1.1.0 (unreleased)
 ------------------
 
+- Added arthistoricum logo to footer. Refs #15430
+  [reinhardt]
 - Added additional custom CSS and favicon. Refs #15430
   [reinhardt]
 - added DDC vocabulary, refs #15430
