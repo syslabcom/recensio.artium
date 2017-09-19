@@ -4,7 +4,7 @@ Changelog
 1.1.0 (unreleased)
 ------------------
 
-- Added additional custom CSS. Refs #15430
+- Added additional custom CSS and favicon. Refs #15430
   [reinhardt]
 - added DDC vocabulary, refs #15430
   [reinhardt]

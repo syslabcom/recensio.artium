@@ -4,6 +4,10 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="recensio.artium">
 
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot directory="template_overrides"
+      layer="recensio.artium.interfaces.IArtiumLayer" />
+
   <browser:resourceDirectory
     name="recensio.artium.images"
     directory="images"
