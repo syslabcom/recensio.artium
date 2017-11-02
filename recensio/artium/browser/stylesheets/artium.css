@@ -101,7 +101,3 @@ body.template-homepage-view .portletTALPortlet p .redPortletHeader {
 p.logos {
     text-align: center;
 }
-
-body.template-homepage-view .portletTALPortlet p .arrow {
-    background-image: url(++resource++recensio.artium.images/play-button_red2.png);
-}
