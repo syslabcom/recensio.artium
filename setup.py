@@ -22,6 +22,7 @@ setup(name='recensio.artium',
       zip_safe=False,
       install_requires=[
           'recensio.policy',
+          'recensio.theme',
           'z3c.jbot',
           'setuptools',
       ],
