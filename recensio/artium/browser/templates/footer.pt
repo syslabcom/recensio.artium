@@ -25,10 +25,10 @@
           <p class="logos">
               <a href="http://www.ub.uni-heidelberg.de/"
                  ><img tal:attributes="src string:${portal_url}/++resource++recensio.artium.images/logos/logo_ubhd.png" src="imgs/logos/logo_ubhd.png"
-                 alt="Logo der Universitätsbibliothek Heidelberg" /></a>
+                 alt="Logo der Universitätsbibliothek Heidelberg" id="logo_ubhd" /></a>
               <a href="http://www.dfg.de/"
                  ><img tal:attributes="src string:${portal_url}/++resource++recensio.artium.images/logos/logo_dfg.png" src="imgs/logos/logo_dfg.png"
-                 alt="Logo der Deutschen Forschungsgemeinschaft" /></a>
+                 alt="Logo der Deutschen Forschungsgemeinschaft" id="logo_dfg" /></a>
               <a href="https://www.arthistoricum.net/"
                  ><img tal:attributes="src string:${portal_url}/++resource++recensio.artium.images/logos/logo_arthistoricum.png" src="imgs/logos/logo_arthistoricum.png"
                  alt="Logo arthistoricum.net" /></a>

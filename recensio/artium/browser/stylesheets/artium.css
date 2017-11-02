@@ -17,7 +17,7 @@ a:focus {
 }
 
 #navigation {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 #container,
 #navigation ul,
@@ -30,9 +30,27 @@ body.template-homepage-view .box a.two-lines,
 #navigation ul#portal-globalnav {
     padding-left: 0;
 }
+#navigation li {
+  border-right: none !important;
+  border-bottom: 2px solid #0077bb;
+  padding: 0 15px 0 15px;
+  margin: 5px 5px 5px 15px;
+}
 #navigation a,
+#navigation a:link, 
 #navigation a:visited {
-    color: #0077bb;
+    color: #444444;
+}
+#navigation a {
+    font-family: myriad-pro, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+
+body.template-homepage-view .box a.one-line h2::before, body.template-homepage-view .box a.two-lines h2::before {
+  content: '//';
 }
 
 #portal-breadcrumbs {
@@ -49,6 +67,14 @@ body.template-homepage-view .box a.two-lines h2::before {
 body.template-homepage-view .portletTALPortlet p,
 #footer {
 	background: #ededed 0 0;
+}
+#footer div a img { 
+    vertical-align: middle; 
+    margin-left: 20px; 
+}
+#footer #logo_ubhd,
+#footer #logo_dfg {
+    height: 38px;
 }
 body.template-homepage-view .portletTALPortlet p,
 .template-search_form #content fieldset,
