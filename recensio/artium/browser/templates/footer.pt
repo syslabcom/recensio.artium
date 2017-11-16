@@ -31,7 +31,7 @@
                  alt="Logo der Deutschen Forschungsgemeinschaft" id="logo_dfg" /></a>
               <a href="https://www.arthistoricum.net/"
                  ><img tal:attributes="src string:${portal_url}/++resource++recensio.artium.images/logos/logo_arthistoricum.png" src="imgs/logos/logo_arthistoricum.png"
-                 alt="Logo arthistoricum.net" /></a>
+                 alt="Logo arthistoricum.net" id="logo_ahn" /></a>
           </p>
       </div>
 
