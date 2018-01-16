@@ -17,6 +17,7 @@ a:focus {
 }
 
 #navigation {
+    float: none;
     margin-top: 2em;
 }
 #container,
