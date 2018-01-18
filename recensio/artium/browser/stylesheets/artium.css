@@ -50,6 +50,10 @@ body.template-homepage-view .box a.two-lines,
 }
 
 
+body.template-homepage-view .box a.one-line svg,
+body.template-homepage-view .box a.two-lines svg {
+    display: none;
+}
 body.template-homepage-view .box a.one-line h2::before, body.template-homepage-view .box a.two-lines h2::before {
   content: '//';
 }
