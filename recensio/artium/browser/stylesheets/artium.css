@@ -70,7 +70,9 @@ body.template-homepage-view .box a.two-lines h2::before {
     color: #0077bb
 }
 body.template-homepage-view .portletTALPortlet p,
-#footer {
+#footer,
+#portletDownload,
+li.accordion-item {
 	background: #ededed 0 0;
 }
 #footer div a img { 
