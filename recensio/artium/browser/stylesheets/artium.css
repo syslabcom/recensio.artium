@@ -11,6 +11,10 @@ a:focus {
     color: #0077bb;
 }
 
+#portal-personaltools {
+    visibility: hidden;
+}
+
 #recensio_logo {
     margin-left: 15px;
     width: 320px;
