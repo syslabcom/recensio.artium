@@ -10,6 +10,8 @@ Changelog
   [reinhardt]
 - New PDF cover logo. Refs #16175
   [reinhardt]
+- Secondary navigation: Hide "benutzerrichtlinien". Refs #16175
+  [reinhardt]
 
 
 1.1.2 (2018-01-18)

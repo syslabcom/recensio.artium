@@ -112,3 +112,7 @@ body.template-homepage-view .portletTALPortlet p .redPortletHeader {
 p.logos {
     text-align: center;
 }
+
+#content #secondary-nav-portlet.firstmenu li a[href=benutzerrichtlinien] {
+    display: none;
+}
