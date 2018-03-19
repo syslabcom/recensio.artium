@@ -10,6 +10,12 @@ a:hover,
 a:focus {
     color: #0077bb;
 }
+.template-browse-topics .submenu_title {
+    color: #0060AA;
+}
+.submenu_title svg.togglebutton path {
+    fill: #0060AA;
+}
 
 #portal-personaltools {
     visibility: hidden;
@@ -53,6 +59,12 @@ body.template-homepage-view .box a.two-lines,
     font-size: 1.4em;
 }
 
+.template-browse-topics .submenu-lvl2 {
+   background-color: #F5F5F5;
+}
+.searchResults .title a.state-published {
+    color: #0060AA !important;
+}
 
 body.template-homepage-view .box a.one-line svg,
 body.template-homepage-view .box a.two-lines svg {
