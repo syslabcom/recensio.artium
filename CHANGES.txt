@@ -4,7 +4,7 @@ Changelog
 1.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Adjusted CSS. #REC-984
 
 
 1.2.1 (2018-05-25)

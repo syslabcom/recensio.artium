@@ -91,6 +91,9 @@ body.template-homepage-view .portletTALPortlet p,
 li.accordion-item {
 	background: #ededed 0 0;
 }
+li.accordion-item#citation dd {
+    margin-left: 0;
+}
 #footer div a img { 
     vertical-align: middle; 
     margin-left: 20px; 
