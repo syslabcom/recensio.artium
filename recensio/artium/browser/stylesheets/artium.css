@@ -25,11 +25,57 @@ a:focus {
     margin-left: 15px;
     width: 320px;
 }
+#portal-searchbox {
+    margin-top: 4.5em;
+}
+
+input#searchGadget {
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    font-size: 1.2em;
+}
+
+#social-media-header {
+    float: right; 
+    margin-top: 2.1em;
+}
+
+#social-media-buttons-header {
+    width: 85%;
+}
+
+
+#language {
+    position: absolute;
+    top: 3.9em;
+    right: 23%;  
+} 
+
+div#portal-advanced-search {
+    display: none;
+}
 
 #navigation {
-    float: none;
+    float: left; 
     margin-top: 2em;
 }
+
+#navigation li {
+    border-bottom: 0.19em solid #0077bb;
+    line-height: 2.7em;
+    margin: 0 2px 0 15px;
+    padding: 0 5px 0 5px;
+}
+
+#navigation a {
+    font-size: 1.45em;
+    font-style: normal;
+    font-family: myriad-pro, sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+
 #container,
 #navigation ul,
 .login_links a,
@@ -42,21 +88,15 @@ body.template-homepage-view .box a.two-lines,
     padding-left: 0;
 }
 #navigation li {
-  border-right: none !important;
-  border-bottom: 2px solid #0077bb;
-  padding: 0 15px 0 15px;
-  margin: 5px 5px 5px 15px;
+    border-right: none !important;
+    border-bottom: 2px solid #0077bb;
+    padding: 0 15px 0 15px;
+    margin: 5px 5px 5px 15px;
 }
 #navigation a,
 #navigation a:link, 
 #navigation a:visited {
     color: #444444;
-}
-#navigation a {
-    font-family: myriad-pro, sans-serif;
-    font-style: italic;
-    text-decoration: none;
-    font-size: 1.4em;
 }
 
 .template-browse-topics .submenu-lvl2 {
@@ -71,7 +111,7 @@ body.template-homepage-view .box a.two-lines svg {
     display: none;
 }
 body.template-homepage-view .box a.one-line h2::before, body.template-homepage-view .box a.two-lines h2::before {
-  content: '//';
+    content: '//';
 }
 
 #portal-breadcrumbs {
@@ -115,6 +155,19 @@ body.template-homepage-view .portletTALPortlet p,
 body.template-homepage-view .portletTALPortlet p .redPortletHeader {
     color: #0077bb;
 }
+
+div#latest_reviews_box ul li {
+    position: relative; 
+    margin-left: 19px;
+    padding-left: 0;
+}
+div#latest_reviews_box ul img {
+    display: none;
+}
+div#latest_reviewparts_box ul li {
+    background: none;
+    padding-left: 29px;
+}
 #navigation ul#portal-globalnav,
 #page_image,
 #footer {
@@ -125,6 +178,9 @@ body.template-homepage-view .portletTALPortlet p .redPortletHeader {
 .rounded_STYLE > .br,
 .rounded_STYLE > .bl {
     background: none;
+}
+.column_footer {
+    text-align: center;
 }
 .column_footer span {
     margin-left: 0;

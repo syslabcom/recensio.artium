@@ -20,6 +20,14 @@
     layer="recensio.artium.interfaces.IArtiumLayer"
     />
 
+  <browser:page
+    for="Products.ATContentTypes.interfaces.document.IATDocument"
+    name="homepage-view"
+    class=".views.ArtiumHomepageView"
+    permission="zope2.View"
+    layer="recensio.artium.interfaces.IArtiumLayer"
+    />
+
   <browser:viewlet
     name="bottom_links"
     manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
