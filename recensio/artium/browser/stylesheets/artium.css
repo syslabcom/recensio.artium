@@ -99,6 +99,11 @@ li.accordion-item {
 #footer #logo_dfg {
     height: 38px;
 }
+body.template-homepage-view .portletTALPortlet p {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
 body.template-homepage-view .portletTALPortlet p,
 .template-search_form #content fieldset,
 .template-search_form #content fieldset .formHelp {
