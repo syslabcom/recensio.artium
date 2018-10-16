@@ -1,3 +1,5 @@
+/* General */
+
 body {
 	background: #ededed 0 0;
     color: #444;
@@ -10,71 +12,6 @@ a:hover,
 a:focus {
     color: #0077bb;
 }
-.template-browse-topics .submenu_title {
-    color: #0060AA;
-}
-.submenu_title svg.togglebutton path {
-    fill: #0060AA;
-}
-
-#portal-personaltools {
-    visibility: hidden;
-}
-
-#recensio_logo {
-    margin-left: 15px;
-    width: 320px;
-}
-#portal-searchbox {
-    margin-top: 4.5em;
-}
-
-input#searchGadget {
-    background: #fafafa;
-    border: 1px solid #eeeeee;
-    font-size: 1.2em;
-}
-
-#social-media-header {
-    float: right; 
-    margin-top: 2.1em;
-}
-
-#social-media-buttons-header {
-    width: 85%;
-}
-
-
-#language {
-    position: absolute;
-    top: 3.9em;
-    right: 23%;  
-} 
-
-div#portal-advanced-search {
-    display: none;
-}
-
-#navigation {
-    float: left; 
-    margin-top: 2em;
-}
-
-#navigation li {
-    border-bottom: 0.19em solid #0077bb;
-    line-height: 2.7em;
-    margin: 0 2px 0 15px;
-    padding: 0 5px 0 5px;
-}
-
-#navigation a {
-    font-size: 1.45em;
-    font-style: normal;
-    font-family: myriad-pro, sans-serif;
-    text-decoration: none;
-    letter-spacing: 0.02em;
-}
-
 
 #container,
 #navigation ul,
@@ -83,6 +20,83 @@ body.template-homepage-view .box a.one-line,
 body.template-homepage-view .box a.two-lines,
 #kommentare_container .reply {
     background-color: #FFFFFF;
+}
+
+body.template-homepage-view .portletTALPortlet p,
+#footer,
+#portletDownload,
+li.accordion-item {
+	background: #ededed 0 0;
+}
+
+body.template-homepage-view .portletTALPortlet p,
+.template-search_form #content fieldset,
+.template-search_form #content fieldset .formHelp {
+    color: #777;
+}
+
+#navigation ul#portal-globalnav,
+#page_image,
+.rounded_STYLE > .tr,
+.rounded_STYLE > .tl,
+.rounded_STYLE > .br,
+.rounded_STYLE > .bl {
+    background: none;
+}
+
+/* Page top */
+
+#portal-personaltools {
+    visibility: hidden;
+}
+
+#portal-searchbox {
+    margin-top: 4.5em;
+}
+input#searchGadget {
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    font-size: 1.2em;
+}
+div#portal-advanced-search {
+    display: none;
+}
+
+#language {
+    position: absolute;
+    top: 3.9em;
+    right: 23%;  
+} 
+
+#recensio_logo {
+    margin-left: 15px;
+    width: 320px;
+}
+
+#social-media-header {
+    float: right; 
+    margin-top: 2.1em;
+}
+#social-media-buttons-header {
+    width: 85%;
+}
+
+#navigation {
+    float: left; 
+    margin-top: 2em;
+}
+#navigation li {
+    border-bottom: 0.19em solid #0077bb;
+    line-height: 2.7em;
+    margin: 0 2px 0 15px;
+    padding: 0 5px 0 5px;
+}
+#navigation a {
+    font-size: 1.45em;
+    font-style: normal;
+    font-family: myriad-pro, sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 #navigation ul#portal-globalnav {
     padding-left: 0;
@@ -99,39 +113,29 @@ body.template-homepage-view .box a.two-lines,
     color: #444444;
 }
 
-.template-browse-topics .submenu-lvl2 {
-   background-color: #F5F5F5;
-}
-.searchResults .title a.state-published {
-    color: #0060AA !important;
-}
-
-body.template-homepage-view .box a.one-line svg,
-body.template-homepage-view .box a.two-lines svg {
-    display: none;
-}
-body.template-homepage-view .box a.one-line h2::before, body.template-homepage-view .box a.two-lines h2::before {
-    content: '//';
-}
-
 #portal-breadcrumbs {
     margin-left: 15px;
 }
 
-#authors-select-all {
-    color: #666;
-}
-body.template-homepage-view .box a.one-line h2::before,
-body.template-homepage-view .box a.two-lines h2::before {
-    color: #0077bb
-}
-body.template-homepage-view .portletTALPortlet p,
-#footer,
-#portletDownload,
-li.accordion-item {
-	background: #ededed 0 0;
-}
+/* Main content */
+
 li.accordion-item#citation dd {
+    margin-left: 0;
+}
+
+#content #secondary-nav-portlet.firstmenu li a[href=benutzerrichtlinien] {
+    display: none;
+}
+
+/* Footer */
+
+#footer {
+    border-radius: 0;
+}
+.column_footer {
+    text-align: center;
+}
+.column_footer span {
     margin-left: 0;
 }
 #footer div a img { 
@@ -142,15 +146,22 @@ li.accordion-item#citation dd {
 #footer #logo_dfg {
     height: 38px;
 }
+
+/* Front page */
+
+body.template-homepage-view .box a.one-line svg,
+body.template-homepage-view .box a.two-lines svg {
+    display: none;
+}
+body.template-homepage-view .box a.one-line h2::before,
+body.template-homepage-view .box a.two-lines h2::before {
+    color: #0077bb
+    content: '//';
+}
 body.template-homepage-view .portletTALPortlet p {
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
-}
-body.template-homepage-view .portletTALPortlet p,
-.template-search_form #content fieldset,
-.template-search_form #content fieldset .formHelp {
-    color: #777;
 }
 body.template-homepage-view .portletTALPortlet p .redPortletHeader {
     color: #0077bb;
@@ -168,27 +179,28 @@ div#latest_reviewparts_box ul li {
     background: none;
     padding-left: 29px;
 }
-#navigation ul#portal-globalnav,
-#page_image,
-#footer {
-    border-radius: 0;
+
+/* Search / Browsing */
+
+.template-browse-topics .submenu_title {
+    color: #0060AA;
 }
-.rounded_STYLE > .tr,
-.rounded_STYLE > .tl,
-.rounded_STYLE > .br,
-.rounded_STYLE > .bl {
-    background: none;
+.submenu_title svg.togglebutton path {
+    fill: #0060AA;
 }
-.column_footer {
-    text-align: center;
+.template-browse-topics .submenu-lvl2 {
+   background-color: #F5F5F5;
 }
-.column_footer span {
-    margin-left: 0;
-}
-p.logos {
-    text-align: center;
+.searchResults .title a.state-published {
+    color: #0060AA !important;
 }
 
-#content #secondary-nav-portlet.firstmenu li a[href=benutzerrichtlinien] {
-    display: none;
+#authors-select-all {
+    color: #666;
+}
+
+/* Other */
+
+p.logos {
+    text-align: center;
 }
