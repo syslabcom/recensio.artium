@@ -4,7 +4,7 @@ Changelog
 1.2.2 (unreleased)
 ------------------
 
-- Adjusted CSS. #REC-984 #REC-992
+- Adjusted CSS. #REC-984 #REC-992 #REC-993
 - Removed language distinction in home page boxes. #REC-992
 
 
