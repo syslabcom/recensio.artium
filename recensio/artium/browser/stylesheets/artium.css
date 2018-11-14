@@ -119,10 +119,6 @@ div#portal-advanced-search {
 
 /* Main content */
 
-li.accordion-item#citation dd {
-    margin-left: 0;
-}
-
 #content #secondary-nav-portlet.firstmenu li a[href=benutzerrichtlinien] {
     display: none;
 }
