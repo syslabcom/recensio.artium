@@ -38,4 +38,12 @@
     layer="recensio.artium.interfaces.IArtiumLayer"
     />
 
+  <browser:page
+    for="Products.ATContentTypes.interfaces.document.IATDocument"
+    name="homepage-view"
+    class=".views.ArtiumHomepageView"
+    permission="zope2.View"
+    layer="recensio.artium.interfaces.IArtiumLayer"
+    />
+
 </configure>

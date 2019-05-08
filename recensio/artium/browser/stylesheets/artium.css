@@ -54,7 +54,6 @@ body.template-homepage-view .box a.two-lines,
 }
 #navigation a {
     font-family: myriad-pro, sans-serif;
-    font-style: italic;
     text-decoration: none;
     font-size: 1.4em;
 }
@@ -111,6 +110,17 @@ body.template-homepage-view .portletTALPortlet p,
 }
 body.template-homepage-view .portletTALPortlet p .redPortletHeader {
     color: #0077bb;
+}
+div#latest_reviewparts_box ul li {
+    background: none;
+   padding: 0 0 0.5em 0px;
+}
+div#latest_reviews_box ul > a {
+    display: none;
+}
+div#latest_reviews_box ul li {
+   padding: 0 0 0.5em 0px;
+   left: 0;
 }
 #navigation ul#portal-globalnav,
 #page_image,

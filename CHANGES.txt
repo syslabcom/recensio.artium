@@ -4,7 +4,7 @@ Changelog
 1.2.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Homepage boxes: Removed language separation. Refs #FLOW-438
 
 
 1.2.2 (2018-12-12)
