@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - Homepage boxes: Removed language separation. Refs #FLOW-438
+- Removed obsolete social media markup from footer. #FLOW-439
 
 
 1.2.2 (2018-12-12)
