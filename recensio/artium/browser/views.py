@@ -3,8 +3,7 @@ from recensio.theme.browser.pdfgen import GeneratePdfRecension
 
 
 class GeneratePdfRecensionArtium(GeneratePdfRecension):
-    """Customized cover page
-    """
+    """Customized cover page"""
 
     logo_main = "++resource++recensio.artium.images/logo2_fuer-Deckblatt.jpg"
 
